@@ -39,7 +39,6 @@ public class DFS{
 		Collection<Point> neighbors = getNeighbors();
 		// Choose one to be a part of the path
 		Point next = chooseNeighbor(neighbors);
-		System.out.println(next);
 		// mark the next step
 		if(next!=null){
 			maze.markPath(next);
